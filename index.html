@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- The following meta is for displaying on a mobile device, mainly prevents the website from looking zoomed out and unreadable from mobile. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <!-- Picsum is a free placeholder image service that provides random or specific stock photos  -->
+    <img src="https://picsum.photos/200/300?random=1" height="150" width="300" alt="Random image 1"/>
+    <!-- In the img src link I added ?random=1 in order to switch to different pictures with the link. It is required to continue the next copied link with ?random2 and so on -->
+    <h2>Top Priorities</h2>
+    <ul>
+        <li>
+            <!-- The following is the syntax for using inputs in HTML which includes two parts, a label and the input section. -->
+            <label for="priority1">Priority 1:</label>
+            <input type="text" id="priority1" name="priority1">
+        </li>
+        <li>
+            <label for="priority2">Priority 2:</label>
+            <input type="text" id="priority2" name="priority2">
+        </li>
+        <li>
+            <label for="priority3">Priority 3:</label>
+            <input type="text" id="priority3" name="priority3">
+        </li>
+    </ul>
+    <h2>Low Priorities</h2>
+    <img src="https://picsum.photos/200/300?random=2" height="150" width="300" alt="Random image 2"/>
+    <ul>
+        <li>
+            <label for="lowpriority1">Low Priority:</label>
+            <input type="text" id="lowpriority1" name="lowpriority1">
+        </li>
+        <li>
+            <label for="lowpriority2">Low Priority:</label>
+            <input type="text" id="lowpriority2" name="lowpriority2">
+        </li>
+        <li>
+            <label for="lowpriority3">Low Priority:</label>
+            <input type="text" id="lowpriority3" name="lowpriority3">
+        </li>
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
