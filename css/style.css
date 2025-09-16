@@ -1,4 +1,21 @@
 body{
     background-color:antiquewhite;
+    font-family: "Story Script", sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
 }
 
+h1{
+    background-color: cadetblue;
+    color:aliceblue;
+    border-top-style:dotted;
+    border-bottom-style:dotted;
+    border-left-style: double;
+    border-left-width: 10px;
+}
+
+h2{
+    background-color:cadetblue;
+    color:aliceblue;
+}
